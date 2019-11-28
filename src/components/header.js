@@ -7,15 +7,18 @@ const Header = () => (
     style={{
       background: `#333 `,
       marginBottom: `1.45rem`,
+      position: `sticky`,
+      top: `0`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+
+        padding: `1rem`,
         display: `flex`,
-        justifyContent: `space-around`,
+        justifyContent: `space-between`,
         alignItems: `center`,
       }}
     >
