@@ -9,8 +9,9 @@ const Header = () => (
       position: `sticky`,
       top: `0`,
       backgroundColor: `#fff`,
-      borderBottom: `1px solid rgba(47, 54, 64,0.2)`,
       padding: `1rem 0`,
+      maxWidth: `960px`,
+      fontFamily: "Overpass",
     }}
   >
     <div

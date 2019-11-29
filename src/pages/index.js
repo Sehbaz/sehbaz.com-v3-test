@@ -4,24 +4,34 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 
 import AboutPage from "../components/about"
-import Image from "../components/image"
-
 import ProjectCard from "../components/projectCard"
 import SEO from "../components/seo"
+import JSONbuildtime from "./json-at-buildtime"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1
+    <h5
       style={{
         padding: `7rem 0rem`,
-        fontSize: `2rem`,
+        fontSize: `2.5rem`,
+        lineHeight: `1.5`,
+        fontWeight: `bold`,
       }}
     >
-      I’m your new Gatsby starter. I’m here to help you showcase your work, your
-      thoughts, and anything else! I’m hooked up to Prismic and deployed with
-      Netlify. 🎉
-    </h1>
+      Hello👋🏼, I’m{" "}
+      <span
+        style={{
+          color: ` #5393fe`,
+        }}
+      >
+        Sehbaz
+      </span>
+      , a front-end developer based in{" "}
+      <span style={{ color: `#f46b3f` }}>Leicester</span>. I focus on delivering
+      optimal solutions to design and code problems that enhances the user’s
+      <span style={{ color: `#17b1b1` }}> experience</span>.
+    </h5>
     <ProjectCard></ProjectCard>
     <ProjectCard></ProjectCard>
     <ProjectCard></ProjectCard>
@@ -32,6 +42,7 @@ const IndexPage = () => (
       </Link>
     </div>
     <AboutPage></AboutPage>
+    <JSONbuildtime></JSONbuildtime>
   </Layout>
 )
 
