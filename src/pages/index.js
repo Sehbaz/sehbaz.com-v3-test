@@ -2,9 +2,12 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
+
+import AboutPage from "../components/about"
 import Image from "../components/image"
-import SEO from "../components/seo"
+
 import ProjectCard from "../components/projectCard"
+import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
@@ -22,6 +25,13 @@ const IndexPage = () => (
     <ProjectCard></ProjectCard>
     <ProjectCard></ProjectCard>
     <ProjectCard></ProjectCard>
+    <div>
+      <Link to="/work">
+        {" "}
+        <h5>See more work</h5>
+      </Link>
+    </div>
+    <AboutPage></AboutPage>
   </Layout>
 )
 

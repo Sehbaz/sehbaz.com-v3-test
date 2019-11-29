@@ -5,17 +5,18 @@ import React from "react"
 const Header = () => (
   <header
     style={{
-      background: `#333 `,
       marginBottom: `1.45rem`,
       position: `sticky`,
       top: `0`,
+      backgroundColor: `#fff`,
+      borderBottom: `1px solid rgba(47, 54, 64,0.2)`,
+      padding: `1rem 0`,
     }}
   >
     <div
       style={{
         margin: `0 auto`,
-        maxWidth: 960,
-
+        maxWidth: `960`,
         padding: `1rem`,
         display: `flex`,
         justifyContent: `space-between`,
@@ -26,8 +27,9 @@ const Header = () => (
         <Link
           to="/"
           style={{
-            color: `white`,
             textDecoration: `none`,
+            color: `black`,
+            fontSize: `1rem`,
           }}
         >
           Sehbaz
@@ -37,8 +39,9 @@ const Header = () => (
         <Link
           to="/work"
           style={{
-            color: `white`,
             textDecoration: `none`,
+            color: `black`,
+            fontSize: `1rem`,
           }}
         >
           Work
